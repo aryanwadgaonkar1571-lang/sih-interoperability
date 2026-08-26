@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const GATEWAY_URL = "http://localhost:8000/api/v1";
+const GATEWAY_URL = "https://sih-gatewayy.onrender.com/api/v1";
 
 export default function App() {
   const [sourceDept, setSourceDept] = useState("DEPT_A");
