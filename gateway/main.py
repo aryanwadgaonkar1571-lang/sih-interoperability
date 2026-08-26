@@ -18,8 +18,8 @@ app.add_middleware(
 AUDIT_LOGS = []
 
 DEPT_ENDPOINTS = {
-    "DEPT_A": "http://localhost:8001/citizen",
-    "DEPT_B": "http://localhost:8002/applicant"
+    "DEPT_A": "https://mock-dept-a.onrender.com/citizen",
+    "DEPT_B": "https://mock-dept-b.onrender.com/applicant"
 }
 
 class InteropRequest(BaseModel):
